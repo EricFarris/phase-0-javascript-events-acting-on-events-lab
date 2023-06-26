@@ -1,6 +1,5 @@
 // Your code here
-moveDodgerLeft();
-moveDodgerRight(;)
+
 
 const dodger = document.getElementById("dodger");
 undefined
@@ -14,6 +13,8 @@ dodger.style.bottom = "0px";
 '0px'
 dodger.style.left = "0px";
 '0px'
+
+
 document.addEventListener("keydown", function (event) {
   console.log(event);
 });
